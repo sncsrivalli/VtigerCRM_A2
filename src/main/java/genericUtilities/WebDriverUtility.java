@@ -8,6 +8,7 @@ import java.util.Set;
 
 import org.apache.commons.io.FileUtils;
 import org.openqa.selenium.Alert;
+import org.openqa.selenium.By;
 import org.openqa.selenium.JavascriptExecutor;
 import org.openqa.selenium.OutputType;
 import org.openqa.selenium.TakesScreenshot;
@@ -161,5 +162,10 @@ public class WebDriverUtility {
 	
 	public void quitAllWindows() {
 		driver.quit();
+	}
+	
+	public WebElement convertDynamicXpathToWebElement(String commonPath, String replaceData) {
+		String requiredPath = String.format(commonPath, replaceData);
+		return driver.findElement(By.xpath(requiredPath));
 	}
 }
