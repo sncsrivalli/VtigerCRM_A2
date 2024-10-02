@@ -1,5 +1,6 @@
 package distributedParallel;
 
+import org.testng.Assert;
 import org.testng.annotations.Test;
 
 public class Test1 {
@@ -12,6 +13,7 @@ public class Test1 {
 	@Test
 	public void demo2() {
 		System.out.println("Test1 - demo2");
+		//Assert.fail();
 	}
 	
 	@Test

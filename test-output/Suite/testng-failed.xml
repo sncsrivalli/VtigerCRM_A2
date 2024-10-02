@@ -1,13 +1,22 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
-<suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
-  <test thread-count="5" name="Test(failed)">
+<suite thread-count="3" parallel="tests" name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="3" parallel="tests" name="Test Runner 2(failed)">
     <classes>
-      <class name="testng.DependsOnMethodsFlag">
+      <class name="distributedParallel.Test4">
         <methods>
-          <include name="registerToApp"/>
+          <include name="demo1"/>
         </methods>
-      </class> <!-- testng.DependsOnMethodsFlag -->
+      </class> <!-- distributedParallel.Test4 -->
     </classes>
-  </test> <!-- Test(failed) -->
+  </test> <!-- Test Runner 2(failed) -->
+  <test thread-count="3" parallel="tests" name="Test Runner 1(failed)">
+    <classes>
+      <class name="distributedParallel.Test1">
+        <methods>
+          <include name="demo2"/>
+        </methods>
+      </class> <!-- distributedParallel.Test1 -->
+    </classes>
+  </test> <!-- Test Runner 1(failed) -->
 </suite> <!-- Failed suite [Suite] -->
