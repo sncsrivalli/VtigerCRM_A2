@@ -3,11 +3,15 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="assertions.SoftAssertion">
+      <class name="vtigerTests.CreateEventTest">
         <methods>
-          <include name="demo"/>
+          <include name="createEventTest"/>
+          <include name="classTeardown"/>
+          <include name="methodTeardown"/>
+          <include name="methodConfig"/>
+          <include name="classConfig"/>
         </methods>
-      </class> <!-- assertions.SoftAssertion -->
+      </class> <!-- vtigerTests.CreateEventTest -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

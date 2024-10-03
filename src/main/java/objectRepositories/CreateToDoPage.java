@@ -70,7 +70,7 @@ public class CreateToDoPage {
 			currentYear = (Integer)jutil.convertStringToAnyDataType(DataType.INT, str[1]);
 		}
 		
-		int reqMonth = (Integer)jutil.convertStringToAnyDataType(DataType.INT, s[1]);
+		int reqMonth = jutil.convertMonthToNum(s[1]);
 		int currentMonth = jutil.convertMonthToNum(str[0]);
 		
 		while(currentMonth < reqMonth) {
