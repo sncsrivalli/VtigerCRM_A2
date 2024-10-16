@@ -28,6 +28,10 @@ public class BaseClass {
 	protected HomePage home;
 	protected SoftAssert soft;
 	
+	public static WebDriver sdriver; // to access same driver instance in the listeners
+	public static JavaUtility sjutil; // to access same jutil instance in the listeners
+	public static WebDriverUtility sweb;// to access same web util instance in the listeners
+	
 	@BeforeClass
 	public void classConfig() {
 		web = new WebDriverUtility();
@@ -42,6 +46,10 @@ public class BaseClass {
 		long time = (Long)jutil.convertStringToAnyDataType(DataType.LONG, 
 						property.getDataFromProperties("timeouts"));
 		web.waitTillElementFound(time);
+		
+		sdriver = driver;
+		sjutil = jutil;
+		sweb = web;
 	}
 	
 	@BeforeMethod

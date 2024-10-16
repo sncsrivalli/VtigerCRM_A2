@@ -1,33 +1,99 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+<testng-results ignored="0" total="4" passed="4" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2024-10-03T16:11:24 IST" name="Default suite" finished-at="2024-10-03T16:11:37 IST" duration-ms="12332">
+  <suite started-at="2024-10-16T16:40:14 IST" name="Suite" finished-at="2024-10-16T16:41:31 IST" duration-ms="76764">
     <groups>
     </groups>
-    <test started-at="2024-10-03T16:11:24 IST" name="Default test" finished-at="2024-10-03T16:11:37 IST" duration-ms="12332">
-      <class name="vtigerTests.CreateEventTest">
-        <test-method is-config="true" signature="classConfig()[pri:0, instance:vtigerTests.CreateEventTest@4466af20]" started-at="2024-10-03T16:11:24 IST" name="classConfig" finished-at="2024-10-03T16:11:26 IST" duration-ms="1478" status="PASS">
+    <test started-at="2024-10-16T16:40:14 IST" name="Test" finished-at="2024-10-16T16:41:31 IST" duration-ms="76764">
+      <class name="vtigerTests.CreateContactTest">
+        <test-method is-config="true" signature="classConfig()[pri:0, instance:vtigerTests.CreateContactTest@5b239d7d]" started-at="2024-10-16T16:40:14 IST" name="classConfig" finished-at="2024-10-16T16:40:16 IST" duration-ms="1415" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- classConfig -->
-        <test-method is-config="true" signature="methodConfig()[pri:0, instance:vtigerTests.CreateEventTest@4466af20]" started-at="2024-10-03T16:11:26 IST" name="methodConfig" finished-at="2024-10-03T16:11:29 IST" duration-ms="3149" status="PASS">
+        <test-method is-config="true" signature="methodConfig()[pri:0, instance:vtigerTests.CreateContactTest@5b239d7d]" started-at="2024-10-16T16:40:16 IST" name="methodConfig" finished-at="2024-10-16T16:40:28 IST" duration-ms="12108" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- methodConfig -->
-        <test-method signature="createEventTest()[pri:0, instance:vtigerTests.CreateEventTest@4466af20]" started-at="2024-10-03T16:11:29 IST" name="createEventTest" finished-at="2024-10-03T16:11:33 IST" duration-ms="4049" status="PASS">
+        <test-method signature="createContactWithOrgTest()[pri:0, instance:vtigerTests.CreateContactTest@5b239d7d]" started-at="2024-10-16T16:40:28 IST" name="createContactWithOrgTest" finished-at="2024-10-16T16:40:51 IST" duration-ms="23166" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- createEventTest -->
-        <test-method is-config="true" signature="methodTeardown()[pri:0, instance:vtigerTests.CreateEventTest@4466af20]" started-at="2024-10-03T16:11:33 IST" name="methodTeardown" finished-at="2024-10-03T16:11:36 IST" duration-ms="3469" status="PASS">
+        </test-method> <!-- createContactWithOrgTest -->
+        <test-method is-config="true" signature="methodTeardown()[pri:0, instance:vtigerTests.CreateContactTest@5b239d7d]" started-at="2024-10-16T16:40:51 IST" name="methodTeardown" finished-at="2024-10-16T16:40:53 IST" duration-ms="1777" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- methodTeardown -->
-        <test-method is-config="true" signature="classTeardown()[pri:0, instance:vtigerTests.CreateEventTest@4466af20]" started-at="2024-10-03T16:11:36 IST" name="classTeardown" finished-at="2024-10-03T16:11:37 IST" duration-ms="152" status="PASS">
+        <test-method is-config="true" signature="classTeardown()[pri:0, instance:vtigerTests.CreateContactTest@5b239d7d]" started-at="2024-10-16T16:40:53 IST" name="classTeardown" finished-at="2024-10-16T16:40:53 IST" duration-ms="177" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- classTeardown -->
+      </class> <!-- vtigerTests.CreateContactTest -->
+      <class name="vtigerTests.CreateOrganizationTest">
+        <test-method is-config="true" signature="classConfig()[pri:0, instance:vtigerTests.CreateOrganizationTest@6c64cb25]" started-at="2024-10-16T16:41:06 IST" name="classConfig" finished-at="2024-10-16T16:41:07 IST" duration-ms="983" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- classConfig -->
+        <test-method is-config="true" signature="methodConfig()[pri:0, instance:vtigerTests.CreateOrganizationTest@6c64cb25]" started-at="2024-10-16T16:41:07 IST" name="methodConfig" finished-at="2024-10-16T16:41:10 IST" duration-ms="2617" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- methodConfig -->
+        <test-method signature="createOrgTest()[pri:0, instance:vtigerTests.CreateOrganizationTest@6c64cb25]" started-at="2024-10-16T16:41:10 IST" name="createOrgTest" finished-at="2024-10-16T16:41:17 IST" duration-ms="7580" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createOrgTest -->
+        <test-method is-config="true" signature="methodTeardown()[pri:0, instance:vtigerTests.CreateOrganizationTest@6c64cb25]" started-at="2024-10-16T16:41:17 IST" name="methodTeardown" finished-at="2024-10-16T16:41:18 IST" duration-ms="1102" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- methodTeardown -->
+        <test-method is-config="true" signature="classTeardown()[pri:0, instance:vtigerTests.CreateOrganizationTest@6c64cb25]" started-at="2024-10-16T16:41:18 IST" name="classTeardown" finished-at="2024-10-16T16:41:19 IST" duration-ms="149" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- classTeardown -->
+      </class> <!-- vtigerTests.CreateOrganizationTest -->
+      <class name="vtigerTests.CreateAndDuplicateLeadTest">
+        <test-method is-config="true" signature="classConfig()[pri:0, instance:vtigerTests.CreateAndDuplicateLeadTest@245b4bdc]" started-at="2024-10-16T16:40:53 IST" name="classConfig" finished-at="2024-10-16T16:40:54 IST" duration-ms="974" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- classConfig -->
+        <test-method is-config="true" signature="methodConfig()[pri:0, instance:vtigerTests.CreateAndDuplicateLeadTest@245b4bdc]" started-at="2024-10-16T16:40:54 IST" name="methodConfig" finished-at="2024-10-16T16:40:57 IST" duration-ms="2593" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- methodConfig -->
+        <test-method signature="createLeadTest()[pri:0, instance:vtigerTests.CreateAndDuplicateLeadTest@245b4bdc]" started-at="2024-10-16T16:40:57 IST" name="createLeadTest" finished-at="2024-10-16T16:41:05 IST" duration-ms="8405" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createLeadTest -->
+        <test-method is-config="true" signature="methodTeardown()[pri:0, instance:vtigerTests.CreateAndDuplicateLeadTest@245b4bdc]" started-at="2024-10-16T16:41:05 IST" name="methodTeardown" finished-at="2024-10-16T16:41:06 IST" duration-ms="1073" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- methodTeardown -->
+        <test-method is-config="true" signature="classTeardown()[pri:0, instance:vtigerTests.CreateAndDuplicateLeadTest@245b4bdc]" started-at="2024-10-16T16:41:06 IST" name="classTeardown" finished-at="2024-10-16T16:41:06 IST" duration-ms="176" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- classTeardown -->
+      </class> <!-- vtigerTests.CreateAndDuplicateLeadTest -->
+      <class name="vtigerTests.CreateEventTest">
+        <test-method is-config="true" signature="classConfig()[pri:0, instance:vtigerTests.CreateEventTest@6ae5aa72]" started-at="2024-10-16T16:41:19 IST" name="classConfig" finished-at="2024-10-16T16:41:20 IST" duration-ms="986" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- classConfig -->
+        <test-method is-config="true" signature="methodConfig()[pri:0, instance:vtigerTests.CreateEventTest@6ae5aa72]" started-at="2024-10-16T16:41:20 IST" name="methodConfig" finished-at="2024-10-16T16:41:22 IST" duration-ms="2282" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- methodConfig -->
+        <test-method signature="createEventTest()[pri:0, instance:vtigerTests.CreateEventTest@6ae5aa72]" started-at="2024-10-16T16:41:22 IST" name="createEventTest" finished-at="2024-10-16T16:41:27 IST" duration-ms="5614" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createEventTest -->
+        <test-method is-config="true" signature="methodTeardown()[pri:0, instance:vtigerTests.CreateEventTest@6ae5aa72]" started-at="2024-10-16T16:41:27 IST" name="methodTeardown" finished-at="2024-10-16T16:41:31 IST" duration-ms="3119" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- methodTeardown -->
+        <test-method is-config="true" signature="classTeardown()[pri:0, instance:vtigerTests.CreateEventTest@6ae5aa72]" started-at="2024-10-16T16:41:31 IST" name="classTeardown" finished-at="2024-10-16T16:41:31 IST" duration-ms="165" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- classTeardown -->
       </class> <!-- vtigerTests.CreateEventTest -->
-    </test> <!-- Default test -->
-  </suite> <!-- Default suite -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
 </testng-results>
