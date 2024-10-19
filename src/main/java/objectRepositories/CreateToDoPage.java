@@ -64,6 +64,7 @@ public class CreateToDoPage {
 		int currentYear = (Integer)jutil.convertStringToAnyDataType(DataType.INT, str[1]);
 		
 		while(currentYear < reqYear) {
+			jutil.await(1000);
 			web.convertDynamicXpathToWebElement(commonPath, "»").click();
 			currentMonthYear = calendarTitle.getText();
 			str = currentMonthYear.split(", ");

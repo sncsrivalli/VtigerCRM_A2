@@ -3,12 +3,15 @@
 <suite name="Suite">
   <test thread-count="5" name="Test">
     <classes>
-      <class name="testng.DependsOnMethodsFlag"/>
       <class name="testng.EnabledFlagPractice"/>
+      <class name="testng.DependsOnMethodsFlag"/>
+      <class name="testng.GetSystemAndBrowserProperties"/>
       <class name="testng.PriorityFlagPractice"/>
       <class name="testng.PriorityInvocationCountEnabled"/>
       <class name="testng.SampleTest"/>
+      <class name="testng.DataProviders"/>
       <class name="testng.InvocationCountPractice"/>
+      <class name="testng.MavenParameterizationTest"/>
     </classes>
   </test> <!-- Test -->
 </suite> <!-- Suite -->

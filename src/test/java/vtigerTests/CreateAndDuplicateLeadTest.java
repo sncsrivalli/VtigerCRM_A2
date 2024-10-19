@@ -13,7 +13,7 @@ import objectRepositories.LeadsPage;
 
 public class CreateAndDuplicateLeadTest extends BaseClass{
 
-	@Test
+	@Test(retryAnalyzer = genericUtilities.RetryImplementation.class)
 	public void createLeadTest() {
 		LeadsPage leads = pom.getLeads();
 		CreatingNewLeadPage createLead = pom.getCreateLead();
