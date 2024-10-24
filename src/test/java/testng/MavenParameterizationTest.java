@@ -1,5 +1,6 @@
 package testng;
 
+import org.testng.Reporter;
 import org.testng.annotations.Test;
 
 public class MavenParameterizationTest {
@@ -8,6 +9,7 @@ public class MavenParameterizationTest {
 	public void parameterizationTest() {
 		String url = System.getProperty("url");
 		String browser = System.getProperty("browser");
-		System.out.println(url + "\n" + browser);
+		Reporter.log(browser, true);
+		Reporter.log(url, true);
 	}
 }
