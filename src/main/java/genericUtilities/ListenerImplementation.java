@@ -18,8 +18,7 @@ public class ListenerImplementation implements ITestListener {
 	
 	@Override
 	public void onStart(ITestContext context) {
-		ExtentSparkReporter spark = new ExtentSparkReporter("./ExtentReports/report-"
-												+ new JavaUtility().getCurrentTime()+".html");
+		ExtentSparkReporter spark = new ExtentSparkReporter("./ExtentReports/report.html");
 		spark.config().setTheme(Theme.STANDARD);
 		spark.config().setDocumentTitle("Extent Report");
 		spark.config().setReportName("Vtiger CRM");
